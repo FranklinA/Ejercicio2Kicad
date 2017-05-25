@@ -1,0 +1,377 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ej2cese
+LIBS:rs232cese
+LIBS:Ejercicio2-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 3700 3400 0    60   Input ~ 0
+TXD
+Text HLabel 3700 3600 0    60   Output ~ 0
+RXD
+Text HLabel 3700 4200 0    60   Output ~ 0
+CTS
+Text HLabel 3700 4050 0    60   Input ~ 0
+RTS
+$Comp
+L Conn_Poncho2P_2x_20x2 XA1
+U 1 1 592591B9
+P 4400 2700
+F 0 "XA1" H 4700 3100 60  0000 C CNN
+F 1 "Conn_Poncho2P_2x_20x2" H 4750 1000 60  0000 C CNN
+F 2 "ej2:Conn_Poncho_Derecha" H 4400 2700 60  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/M50-350.pdf" H 4400 2700 60  0001 C CNN
+F 4 "CONN HDR 1.27MM VERT AU 40POS" H 4400 2700 60  0001 C CNN "Desc:"
+F 5 "Harwin Inc." H 4400 2700 60  0001 C CNN "Manf:"
+F 6 "M50-3502042" H 4400 2700 60  0001 C CNN "Manf#:"
+F 7 "952-1387-ND" H 4400 2700 60  0001 C CNN "Digikey#:"
+	1    4400 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3500 3900 3500
+Wire Wire Line
+	3900 3500 3900 3400
+Wire Wire Line
+	3900 3400 3700 3400
+Wire Wire Line
+	4150 3600 3700 3600
+Wire Wire Line
+	4150 4100 3950 4100
+Wire Wire Line
+	3950 4100 3950 4050
+Wire Wire Line
+	3950 4050 3700 4050
+Wire Wire Line
+	4150 4200 3700 4200
+$Comp
+L +3.3V #PWR01
+U 1 1 5925939E
+P 4100 2250
+F 0 "#PWR01" H 4100 2100 50  0001 C CNN
+F 1 "+3.3V" H 4100 2390 50  0000 C CNN
+F 2 "" H 4100 2250 50  0000 C CNN
+F 3 "" H 4100 2250 50  0000 C CNN
+	1    4100 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR02
+U 1 1 592593B5
+P 5400 2250
+F 0 "#PWR02" H 5400 2100 50  0001 C CNN
+F 1 "+5V" H 5400 2390 50  0000 C CNN
+F 2 "" H 5400 2250 50  0000 C CNN
+F 3 "" H 5400 2250 50  0000 C CNN
+	1    5400 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2400 5400 2400
+Wire Wire Line
+	5400 2400 5400 2250
+Wire Wire Line
+	4100 2250 4100 2400
+Wire Wire Line
+	4100 2400 4150 2400
+NoConn ~ 4150 4000
+NoConn ~ 4150 3900
+NoConn ~ 4150 4300
+NoConn ~ 4150 2500
+NoConn ~ 4150 2600
+NoConn ~ 4150 2700
+NoConn ~ 4150 2800
+NoConn ~ 4150 2900
+NoConn ~ 4150 3000
+NoConn ~ 4150 3100
+NoConn ~ 4150 3200
+NoConn ~ 4150 3300
+NoConn ~ 4150 3400
+NoConn ~ 5350 2600
+NoConn ~ 5350 2700
+NoConn ~ 5350 2800
+NoConn ~ 5350 2900
+NoConn ~ 5350 3000
+NoConn ~ 5350 3100
+NoConn ~ 5350 3200
+NoConn ~ 5350 4000
+NoConn ~ 5350 4100
+$Comp
+L AMIS42665TJAA1RG U1
+U 1 1 5925976F
+P 8300 3850
+F 0 "U1" H 8050 4350 60  0000 C CNN
+F 1 "AMIS42665TJAA1RG" H 8300 3450 60  0000 C CNN
+F 2 "ej2:SOIC-8" H 8300 3900 60  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/AMIS-42665-D.PDF" H 8300 3900 60  0001 C CNN
+F 4 "IC TXRX CAN HALF DUP 8SOIC" H 8300 3850 60  0001 C CNN "Desc:"
+F 5 "ON Semiconductor" H 8300 3850 60  0001 C CNN "Manf:"
+F 6 "AMIS42665TJAA1RG" H 8300 3850 60  0001 C CNN "Manf#:"
+F 7 "766-1006-1-ND" H 8300 3850 60  0001 C CNN "Digikey#:"
+	1    8300 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_3 JP1
+U 1 1 592597C3
+P 6600 3550
+F 0 "JP1" H 6650 3550 60  0000 C CNN
+F 1 "CAN" H 6700 3050 60  0000 C CNN
+F 2 "ej2:CON_PALETA_3" H 6600 3550 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 6600 3550 60  0001 C CNN
+F 4 "CONN HEADER VERT 3POS .100 TIN" H 6600 3550 60  0001 C CNN "Desc:"
+F 5 "TE Connectivity AMP Connectors" H 6600 3550 60  0001 C CNN "Manf:"
+F 6 "640456-3" H 6600 3550 60  0001 C CNN "Manf#:"
+F 7 "A19470-ND" H 6600 3550 60  0001 C CNN "Digikey#:"
+	1    6600 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 592599CB
+P 9350 3500
+F 0 "C1" H 9375 3600 50  0000 L CNN
+F 1 "100nF" H 9375 3400 50  0000 L CNN
+F 2 "ej2:C_0603_HandSoldering" H 9388 3350 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 9350 3500 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 1206" H 9350 3500 60  0001 C CNN "Desc:"
+F 5 "Yageo" H 9350 3500 60  0001 C CNN "Manf:"
+F 6 "CC1206KRX7R9BB104" H 9350 3500 60  0001 C CNN "Manf#:"
+F 7 "311-1179-1-ND" H 9350 3500 60  0001 C CNN "Digikey#:"
+	1    9350 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9200 3500 8900 3500
+$Comp
+L +5V #PWR03
+U 1 1 59259A53
+P 9000 3350
+F 0 "#PWR03" H 9000 3200 50  0001 C CNN
+F 1 "+5V" H 9000 3490 50  0000 C CNN
+F 2 "" H 9000 3350 50  0000 C CNN
+F 3 "" H 9000 3350 50  0000 C CNN
+	1    9000 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 3350 9000 3500
+Connection ~ 9000 3500
+$Comp
+L GND #PWR04
+U 1 1 59259B1F
+P 9050 4200
+F 0 "#PWR04" H 9050 3950 50  0001 C CNN
+F 1 "GND" H 9050 4050 50  0000 C CNN
+F 2 "" H 9050 4200 50  0000 C CNN
+F 3 "" H 9050 4200 50  0000 C CNN
+	1    9050 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 59259B69
+P 9750 3600
+F 0 "#PWR05" H 9750 3350 50  0001 C CNN
+F 1 "GND" H 9750 3450 50  0000 C CNN
+F 2 "" H 9750 3600 50  0000 C CNN
+F 3 "" H 9750 3600 50  0000 C CNN
+	1    9750 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 3600 9750 3500
+Wire Wire Line
+	9750 3500 9500 3500
+Wire Wire Line
+	9050 3650 9050 4200
+Wire Wire Line
+	9050 4100 8900 4100
+Wire Wire Line
+	8900 3650 9050 3650
+Connection ~ 9050 4100
+Wire Wire Line
+	8900 3950 9050 3950
+Connection ~ 9050 3950
+Wire Wire Line
+	8900 3800 9050 3800
+Connection ~ 9050 3800
+$Comp
+L GND #PWR06
+U 1 1 59259D53
+P 6950 4050
+F 0 "#PWR06" H 6950 3800 50  0001 C CNN
+F 1 "GND" H 6950 3900 50  0000 C CNN
+F 2 "" H 6950 4050 50  0000 C CNN
+F 3 "" H 6950 4050 50  0000 C CNN
+	1    6950 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3900 6950 3900
+Wire Wire Line
+	6950 3900 6950 4050
+$Comp
+L R R1
+U 1 1 59259E8C
+P 7350 3600
+F 0 "R1" V 7430 3600 50  0000 C CNN
+F 1 "60" V 7350 3600 50  0000 C CNN
+F 2 "ej2:R_1206_HandSoldering" V 7280 3600 50  0001 C CNN
+F 3 "https://www.digikey.com/products/en?WT.z_se_ps=1&keywords=Y149660R0000A0R-ND" H 7350 3600 50  0001 C CNN
+F 4 "RES SMD 60 OHM 0.05% 0.15W 1206" V 7350 3600 60  0001 C CNN "Desc:"
+F 5 "Vishay Foil Resistors (Division of Vishay Precision Group)" V 7350 3600 60  0001 C CNN "Manf:"
+F 6 "Y149660R0000A0R" V 7350 3600 60  0001 C CNN "Manf#:"
+F 7 "Y149660R0000A0R-ND" V 7350 3600 60  0001 C CNN "Digikey#:"
+	1    7350 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 59259EC8
+P 7350 4000
+F 0 "R2" V 7430 4000 50  0000 C CNN
+F 1 "60" V 7350 4000 50  0000 C CNN
+F 2 "ej2:R_1206_HandSoldering" V 7280 4000 50  0001 C CNN
+F 3 "https://www.digikey.com/products/en?WT.z_se_ps=1&keywords=Y149660R0000A0R-ND" H 7350 4000 50  0001 C CNN
+F 4 "RES SMD 60 OHM 0.05% 0.15W 1206" V 7350 4000 60  0001 C CNN "Desc:"
+F 5 "Vishay Foil Resistors (Division of Vishay Precision Group)" V 7350 4000 60  0001 C CNN "Manf:"
+F 6 "Y149660R0000A0R" V 7350 4000 60  0001 C CNN "Manf#:"
+F 7 "Y149660R0000A0R-ND" V 7350 4000 60  0001 C CNN "Digikey#:"
+	1    7350 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 3750 7350 3850
+Wire Wire Line
+	7650 3800 7350 3800
+Connection ~ 7350 3800
+Wire Wire Line
+	6800 3800 7150 3800
+Wire Wire Line
+	7150 3800 7150 4150
+Wire Wire Line
+	7150 4150 7450 4150
+Wire Wire Line
+	7450 4150 7450 4100
+Wire Wire Line
+	7450 4100 7650 4100
+Connection ~ 7350 4150
+Wire Wire Line
+	6800 3700 7150 3700
+Wire Wire Line
+	7150 3700 7150 3450
+Wire Wire Line
+	7150 3450 7450 3450
+Wire Wire Line
+	7450 3450 7450 3500
+Wire Wire Line
+	7450 3500 7650 3500
+Connection ~ 7350 3450
+$Comp
+L GND #PWR07
+U 1 1 5925A69D
+P 5650 4350
+F 0 "#PWR07" H 5650 4100 50  0001 C CNN
+F 1 "GND" H 5650 4200 50  0000 C CNN
+F 2 "" H 5650 4350 50  0000 C CNN
+F 3 "" H 5650 4350 50  0000 C CNN
+	1    5650 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 4300 5650 4300
+Wire Wire Line
+	5650 2400 5650 4350
+Wire Wire Line
+	5350 4200 5650 4200
+Connection ~ 5650 4300
+Wire Wire Line
+	5350 3300 5650 3300
+Connection ~ 5650 4200
+Wire Wire Line
+	5350 2500 5650 2500
+Connection ~ 5650 3300
+Wire Wire Line
+	5350 3900 5650 3900
+Connection ~ 5650 3900
+Wire Wire Line
+	5350 3800 5650 3800
+Connection ~ 5650 3800
+Wire Wire Line
+	5350 3700 5650 3700
+Connection ~ 5650 3700
+Wire Wire Line
+	5350 3600 5650 3600
+Connection ~ 5650 3600
+Wire Wire Line
+	5350 3500 5650 3500
+Connection ~ 5650 3500
+Wire Wire Line
+	5350 3400 5650 3400
+Connection ~ 5650 3400
+$Comp
+L PWR_FLAG #FLG08
+U 1 1 5925AA05
+P 5650 2400
+F 0 "#FLG08" H 5650 2495 50  0001 C CNN
+F 1 "PWR_FLAG" H 5650 2580 50  0000 C CNN
+F 2 "" H 5650 2400 50  0000 C CNN
+F 3 "" H 5650 2400 50  0000 C CNN
+	1    5650 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5650 2500
+Text Label 4150 3700 2    60   ~ 0
+CAN_RX
+Text Label 4150 3800 2    60   ~ 0
+CAN_TX
+Text Label 6850 3700 0    60   ~ 0
+CAN_P
+Text Label 6850 3800 0    60   ~ 0
+CAN_N
+Text Label 9050 3800 0    60   ~ 0
+CAN_TX
+Text Label 9050 3950 0    60   ~ 0
+CAN_RX
+$EndSCHEMATC

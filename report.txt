@@ -1,0 +1,240 @@
+Información: Leyendo el archivo de lista de redes "/Users/franklinangulo/Documents/1_GITangulofranklin/Ejercicio2Kicad/Ejercicio2.net".
+
+Información: Utilizando referencias para combinar componentes y huellas.
+
+Información: Comprobando la huella del componente de la red "C1:/59257C7A/592599CB:ej2:C_0603_HandSoldering".
+
+Añadiendo del nuevo componente "C1:/59257C7A/592599CB" la huella "ej2:C_0603_HandSoldering".
+
+Cambiando del componente "C1:/59257C7A/592599CB" el nombre de la red del pin "1" de "" a "GND".
+
+Cambiando del componente "C1:/59257C7A/592599CB" el nombre de la red del pin "2" de "" a "+5V".
+
+Información: Comprobando la huella del componente de la red "C2:/59257C7F/59257F3F:ej2:C_0603_HandSoldering".
+
+Añadiendo del nuevo componente "C2:/59257C7F/59257F3F" la huella "ej2:C_0603_HandSoldering".
+
+Cambiando del componente "C2:/59257C7F/59257F3F" el nombre de la red del pin "1" de "" a "+3V3".
+
+Cambiando del componente "C2:/59257C7F/59257F3F" el nombre de la red del pin "2" de "" a "GND".
+
+Información: Comprobando la huella del componente de la red "C3:/59257C7F/59257F67:ej2:C_0603_HandSoldering".
+
+Añadiendo del nuevo componente "C3:/59257C7F/59257F67" la huella "ej2:C_0603_HandSoldering".
+
+Cambiando del componente "C3:/59257C7F/59257F67" el nombre de la red del pin "1" de "" a "Net-(C3-Pad1)".
+
+Cambiando del componente "C3:/59257C7F/59257F67" el nombre de la red del pin "2" de "" a "Net-(C3-Pad2)".
+
+Información: Comprobando la huella del componente de la red "C4:/59257C7F/59257F10:ej2:C_0603_HandSoldering".
+
+Añadiendo del nuevo componente "C4:/59257C7F/59257F10" la huella "ej2:C_0603_HandSoldering".
+
+Cambiando del componente "C4:/59257C7F/59257F10" el nombre de la red del pin "1" de "" a "Net-(C4-Pad1)".
+
+Cambiando del componente "C4:/59257C7F/59257F10" el nombre de la red del pin "2" de "" a "Net-(C4-Pad2)".
+
+Información: Comprobando la huella del componente de la red "C5:/59257C7F/59257F91:ej2:C_0603_HandSoldering".
+
+Añadiendo del nuevo componente "C5:/59257C7F/59257F91" la huella "ej2:C_0603_HandSoldering".
+
+Cambiando del componente "C5:/59257C7F/59257F91" el nombre de la red del pin "1" de "" a "GND".
+
+Cambiando del componente "C5:/59257C7F/59257F91" el nombre de la red del pin "2" de "" a "Net-(C5-Pad2)".
+
+Información: Comprobando la huella del componente de la red "C6:/59257C7F/59257EC8:ej2:C_0603_HandSoldering".
+
+Añadiendo del nuevo componente "C6:/59257C7F/59257EC8" la huella "ej2:C_0603_HandSoldering".
+
+Cambiando del componente "C6:/59257C7F/59257EC8" el nombre de la red del pin "1" de "" a "GND".
+
+Cambiando del componente "C6:/59257C7F/59257EC8" el nombre de la red del pin "2" de "" a "Net-(C6-Pad2)".
+
+Información: Comprobando la huella del componente de la red "J1:/59257C7F/59258388:ej2:DB9_F_TH".
+
+Añadiendo del nuevo componente "J1:/59257C7F/59258388" la huella "ej2:DB9_F_TH".
+
+Cambiando del componente "J1:/59257C7F/59258388" el nombre de la red del pin "1" de "" a "Net-(J1-Pad1)".
+
+Cambiando del componente "J1:/59257C7F/59258388" el nombre de la red del pin "2" de "" a "/RS232/EduTX".
+
+Cambiando del componente "J1:/59257C7F/59258388" el nombre de la red del pin "3" de "" a "/RS232/EduRX".
+
+Cambiando del componente "J1:/59257C7F/59258388" el nombre de la red del pin "4" de "" a "Net-(J1-Pad4)".
+
+Cambiando del componente "J1:/59257C7F/59258388" el nombre de la red del pin "5" de "" a "GND".
+
+Cambiando del componente "J1:/59257C7F/59258388" el nombre de la red del pin "6" de "" a "Net-(J1-Pad6)".
+
+Cambiando del componente "J1:/59257C7F/59258388" el nombre de la red del pin "7" de "" a "/RS232/EduCTS".
+
+Cambiando del componente "J1:/59257C7F/59258388" el nombre de la red del pin "8" de "" a "/RS232/EduRTS".
+
+Cambiando del componente "J1:/59257C7F/59258388" el nombre de la red del pin "9" de "" a "Net-(J1-Pad9)".
+
+Información: Comprobando la huella del componente de la red "JP1:/59257C7A/592597C3:ej2:CON_PALETA_3".
+
+Añadiendo del nuevo componente "JP1:/59257C7A/592597C3" la huella "ej2:CON_PALETA_3".
+
+Cambiando del componente "JP1:/59257C7A/592597C3" el nombre de la red del pin "1" de "" a "/CONECTORyCAN/CAN_P".
+
+Cambiando del componente "JP1:/59257C7A/592597C3" el nombre de la red del pin "2" de "" a "/CONECTORyCAN/CAN_N".
+
+Cambiando del componente "JP1:/59257C7A/592597C3" el nombre de la red del pin "3" de "" a "GND".
+
+Información: Comprobando la huella del componente de la red "R1:/59257C7A/59259E8C:ej2:R_1206_HandSoldering".
+
+Añadiendo del nuevo componente "R1:/59257C7A/59259E8C" la huella "ej2:R_1206_HandSoldering".
+
+Cambiando del componente "R1:/59257C7A/59259E8C" el nombre de la red del pin "1" de "" a "/CONECTORyCAN/CAN_P".
+
+Cambiando del componente "R1:/59257C7A/59259E8C" el nombre de la red del pin "2" de "" a "Net-(R1-Pad2)".
+
+Información: Comprobando la huella del componente de la red "R2:/59257C7A/59259EC8:ej2:R_1206_HandSoldering".
+
+Añadiendo del nuevo componente "R2:/59257C7A/59259EC8" la huella "ej2:R_1206_HandSoldering".
+
+Cambiando del componente "R2:/59257C7A/59259EC8" el nombre de la red del pin "1" de "" a "Net-(R1-Pad2)".
+
+Cambiando del componente "R2:/59257C7A/59259EC8" el nombre de la red del pin "2" de "" a "/CONECTORyCAN/CAN_N".
+
+Información: Comprobando la huella del componente de la red "U1:/59257C7A/5925976F:ej2:SOIC-8".
+
+Añadiendo del nuevo componente "U1:/59257C7A/5925976F" la huella "ej2:SOIC-8".
+
+Cambiando del componente "U1:/59257C7A/5925976F" el nombre de la red del pin "1" de "" a "GND".
+
+Cambiando del componente "U1:/59257C7A/5925976F" el nombre de la red del pin "2" de "" a "GND".
+
+Cambiando del componente "U1:/59257C7A/5925976F" el nombre de la red del pin "3" de "" a "+5V".
+
+Cambiando del componente "U1:/59257C7A/5925976F" el nombre de la red del pin "4" de "" a "GND".
+
+Cambiando del componente "U1:/59257C7A/5925976F" el nombre de la red del pin "5" de "" a "Net-(R1-Pad2)".
+
+Cambiando del componente "U1:/59257C7A/5925976F" el nombre de la red del pin "6" de "" a "/CONECTORyCAN/CAN_N".
+
+Cambiando del componente "U1:/59257C7A/5925976F" el nombre de la red del pin "7" de "" a "/CONECTORyCAN/CAN_P".
+
+Cambiando del componente "U1:/59257C7A/5925976F" el nombre de la red del pin "8" de "" a "GND".
+
+Información: Comprobando la huella del componente de la red "U2:/59257C7F/59257D7A:ej2:SP3232ECN-SOIC16N".
+
+Añadiendo del nuevo componente "U2:/59257C7F/59257D7A" la huella "ej2:SP3232ECN-SOIC16N".
+
+Cambiando del componente "U2:/59257C7F/59257D7A" el nombre de la red del pin "1" de "" a "Net-(C3-Pad1)".
+
+Cambiando del componente "U2:/59257C7F/59257D7A" el nombre de la red del pin "2" de "" a "Net-(C6-Pad2)".
+
+Cambiando del componente "U2:/59257C7F/59257D7A" el nombre de la red del pin "3" de "" a "Net-(C3-Pad2)".
+
+Cambiando del componente "U2:/59257C7F/59257D7A" el nombre de la red del pin "4" de "" a "Net-(C4-Pad1)".
+
+Cambiando del componente "U2:/59257C7F/59257D7A" el nombre de la red del pin "5" de "" a "Net-(C4-Pad2)".
+
+Cambiando del componente "U2:/59257C7F/59257D7A" el nombre de la red del pin "6" de "" a "Net-(C5-Pad2)".
+
+Cambiando del componente "U2:/59257C7F/59257D7A" el nombre de la red del pin "7" de "" a "/RS232/EduRTS".
+
+Cambiando del componente "U2:/59257C7F/59257D7A" el nombre de la red del pin "8" de "" a "/RS232/EduCTS".
+
+Cambiando del componente "U2:/59257C7F/59257D7A" el nombre de la red del pin "9" de "" a "/CON4".
+
+Cambiando del componente "U2:/59257C7F/59257D7A" el nombre de la red del pin "10" de "" a "/CON2".
+
+Cambiando del componente "U2:/59257C7F/59257D7A" el nombre de la red del pin "11" de "" a "/CON1".
+
+Cambiando del componente "U2:/59257C7F/59257D7A" el nombre de la red del pin "12" de "" a "/CON3".
+
+Cambiando del componente "U2:/59257C7F/59257D7A" el nombre de la red del pin "13" de "" a "/RS232/EduRX".
+
+Cambiando del componente "U2:/59257C7F/59257D7A" el nombre de la red del pin "14" de "" a "/RS232/EduTX".
+
+Cambiando del componente "U2:/59257C7F/59257D7A" el nombre de la red del pin "15" de "" a "GND".
+
+Cambiando del componente "U2:/59257C7F/59257D7A" el nombre de la red del pin "16" de "" a "+3V3".
+
+Información: Comprobando la huella del componente de la red "XA1:/59257C7A/592591B9:ej2:Conn_Poncho_Derecha".
+
+Añadiendo del nuevo componente "XA1:/59257C7A/592591B9" la huella "ej2:Conn_Poncho_Derecha".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "1" de "" a "+3V3".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "2" de "" a "+5V".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "11" de "" a "Net-(XA1-Pad11)".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "4" de "" a "GND".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "13" de "" a "Net-(XA1-Pad13)".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "6" de "" a "Net-(XA1-Pad6)".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "15" de "" a "Net-(XA1-Pad15)".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "8" de "" a "Net-(XA1-Pad8)".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "17" de "" a "Net-(XA1-Pad17)".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "10" de "" a "Net-(XA1-Pad10)".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "19" de "" a "Net-(XA1-Pad19)".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "12" de "" a "Net-(XA1-Pad12)".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "21" de "" a "Net-(XA1-Pad21)".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "14" de "" a "Net-(XA1-Pad14)".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "23" de "" a "/CON1".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "16" de "" a "Net-(XA1-Pad16)".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "25" de "" a "/CON2".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "18" de "" a "Net-(XA1-Pad18)".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "27" de "" a "GND".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "20" de "" a "GND".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "29" de "" a "GND".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "22" de "" a "GND".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "31" de "" a "Net-(XA1-Pad31)".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "24" de "" a "GND".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "26" de "" a "GND".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "33" de "" a "Net-(XA1-Pad33)".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "28" de "" a "GND".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "32" de "" a "GND".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "34" de "" a "Net-(XA1-Pad34)".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "36" de "" a "Net-(XA1-Pad36)".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "38" de "" a "GND".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "35" de "" a "/CON4".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "37" de "" a "/CON3".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "3" de "" a "Net-(XA1-Pad3)".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "5" de "" a "Net-(XA1-Pad5)".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "7" de "" a "Net-(XA1-Pad7)".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "9" de "" a "Net-(XA1-Pad9)".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "39" de "" a "Net-(XA1-Pad39)".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "40" de "" a "GND".
+
+Cambiando del componente "XA1:/59257C7A/592591B9" el nombre de la red del pin "30" de "" a "GND".
+

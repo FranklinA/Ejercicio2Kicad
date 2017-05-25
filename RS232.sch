@@ -1,0 +1,346 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ej2cese
+LIBS:rs232cese
+LIBS:Ejercicio2-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RS232CESE U2
+U 1 1 59257D7A
+P 4600 2400
+F 0 "U2" H 4600 2600 60  0000 C CNN
+F 1 "RS232CESE" H 4650 2250 60  0000 C CNN
+F 2 "ej2:SP3232ECN-SOIC16N" H 4650 2300 60  0001 C CNN
+F 3 "" H 4650 2300 60  0001 C CNN
+	1    4600 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L RS232CESE U2
+U 2 1 59257DA3
+P 4500 3400
+F 0 "U2" H 4500 3600 60  0000 C CNN
+F 1 "RS232CESE" H 4550 3250 60  0000 C CNN
+F 2 "ej2:SP3232ECN-SOIC16N" H 4550 3300 60  0001 C CNN
+F 3 "" H 4550 3300 60  0001 C CNN
+	2    4500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L RS232CESE U2
+U 3 1 59257DE5
+P 4500 4000
+F 0 "U2" H 4500 4200 60  0000 C CNN
+F 1 "RS232CESE" H 4550 3850 60  0000 C CNN
+F 2 "ej2:SP3232ECN-SOIC16N" H 4550 3900 60  0001 C CNN
+F 3 "" H 4550 3900 60  0001 C CNN
+	3    4500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 59257EC8
+P 5450 2450
+F 0 "C6" H 5475 2550 50  0000 L CNN
+F 1 "100nF" H 5475 2350 50  0000 L CNN
+F 2 "ej2:C_0603_HandSoldering" H 5488 2300 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 5450 2450 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 1206 Expanded Description" H 5450 2450 60  0001 C CNN "Desc:"
+F 5 "Yageo" H 5450 2450 60  0001 C CNN "Manf:"
+F 6 "CC1206KRX7R9BB104" H 5450 2450 60  0001 C CNN "Manf#:"
+F 7 "311-1179-1-ND" H 5450 2450 60  0001 C CNN "Digikey#:"
+	1    5450 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C4
+U 1 1 59257F10
+P 3350 2850
+F 0 "C4" H 3375 2950 50  0000 L CNN
+F 1 "100nF" H 3375 2750 50  0000 L CNN
+F 2 "ej2:C_0603_HandSoldering" H 3388 2700 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 3350 2850 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 1206" H 3350 2850 60  0001 C CNN "Desc:"
+F 5 "Yageo" H 3350 2850 60  0001 C CNN "Manf:"
+F 6 "CC1206KRX7R9BB104" H 3350 2850 60  0001 C CNN "Manf#:"
+F 7 "311-1179-1-ND" H 3350 2850 60  0001 C CNN "Digikey#:"
+	1    3350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 59257F3F
+P 3150 1850
+F 0 "C2" H 3175 1950 50  0000 L CNN
+F 1 "100nF" H 3175 1750 50  0000 L CNN
+F 2 "ej2:C_0603_HandSoldering" H 3188 1700 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 3150 1850 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 1206" H 3150 1850 60  0001 C CNN "Desc:"
+F 5 "Yageo" H 3150 1850 60  0001 C CNN "Manf:"
+F 6 "CC1206KRX7R9BB104" H 3150 1850 60  0001 C CNN "Manf#:"
+F 7 "311-1179-1-ND" H 3150 1850 60  0001 C CNN "Digikey#:"
+	1    3150 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 59257F67
+P 3350 2400
+F 0 "C3" H 3375 2500 50  0000 L CNN
+F 1 "100nF" H 3375 2300 50  0000 L CNN
+F 2 "ej2:C_0603_HandSoldering" H 3388 2250 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 3350 2400 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 1206" H 3350 2400 60  0001 C CNN "Desc:"
+F 5 "Yageo" H 3350 2400 60  0001 C CNN "Manf:"
+F 6 "CC1206KRX7R9BB104" H 3350 2400 60  0001 C CNN "Manf#:"
+F 7 "311-1179-1-ND" H 3350 2400 60  0001 C CNN "Digikey#:"
+	1    3350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C5
+U 1 1 59257F91
+P 5200 2450
+F 0 "C5" H 5225 2550 50  0000 L CNN
+F 1 "100nF" H 5225 2350 50  0000 L CNN
+F 2 "ej2:C_0603_HandSoldering" H 5238 2300 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 5200 2450 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 1206" H 5200 2450 60  0001 C CNN "Desc:"
+F 5 "Yageo" H 5200 2450 60  0001 C CNN "Manf:"
+F 6 "CC1206KRX7R9BB104" H 5200 2450 60  0001 C CNN "Manf#:"
+F 7 "311-1179-1-ND" H 5200 2450 60  0001 C CNN "Digikey#:"
+	1    5200 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L DB9 J1
+U 1 1 59258388
+P 6900 3750
+F 0 "J1" H 6900 4300 50  0000 C CNN
+F 1 "DB9" H 6900 3200 50  0000 C CNN
+F 2 "ej2:DB9_F_TH" H 6900 3750 50  0001 C CNN
+F 3 "http://www.sullinscorp.com/drawings/345_11773,_SDS107-PR___-_____-SN___-___.pdf" H 6900 3750 50  0001 C CNN
+F 4 "CONN D-SUB RCPT 9POS R/A SOLDER" H 6900 3750 60  0001 C CNN "Desc:"
+F 5 "Sullins Connector Solutions" H 6900 3750 60  0001 C CNN "Manf:"
+F 6 "SDS107-PRP1-F09-SN63-11" H 6900 3750 60  0001 C CNN "Manf#:"
+F 7 "S9554-ND" H 6900 3750 60  0001 C CNN "Digikey#:"
+	1    6900 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 5925894A
+P 3150 2100
+F 0 "#PWR09" H 3150 1850 50  0001 C CNN
+F 1 "GND" H 3150 1950 50  0000 C CNN
+F 2 "" H 3150 2100 50  0000 C CNN
+F 3 "" H 3150 2100 50  0000 C CNN
+	1    3150 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 592589B6
+P 5200 2700
+F 0 "#PWR010" H 5200 2450 50  0001 C CNN
+F 1 "GND" H 5200 2550 50  0000 C CNN
+F 2 "" H 5200 2700 50  0000 C CNN
+F 3 "" H 5200 2700 50  0000 C CNN
+	1    5200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 592589EE
+P 5450 2700
+F 0 "#PWR011" H 5450 2450 50  0001 C CNN
+F 1 "GND" H 5450 2550 50  0000 C CNN
+F 2 "" H 5450 2700 50  0000 C CNN
+F 3 "" H 5450 2700 50  0000 C CNN
+	1    5450 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 59258A9B
+P 6200 3150
+F 0 "#PWR012" H 6200 2900 50  0001 C CNN
+F 1 "GND" H 6200 3000 50  0000 C CNN
+F 2 "" H 6200 3150 50  0000 C CNN
+F 3 "" H 6200 3150 50  0000 C CNN
+	1    6200 3150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6450 3450
+NoConn ~ 6450 3550
+NoConn ~ 6450 4050
+NoConn ~ 6450 4150
+Text Label 5100 3450 0    60   ~ 0
+EduRTS
+Text Label 5100 3350 0    60   ~ 0
+EduTX
+Text Label 5150 3900 0    60   ~ 0
+EduRX
+Text Label 5150 4000 0    60   ~ 0
+EduCTS
+Text HLabel 3100 3500 0    60   BiDi ~ 0
+RS[1..4]
+Wire Wire Line
+	5100 2100 5450 2100
+Wire Wire Line
+	5450 2100 5450 2300
+Wire Wire Line
+	5100 2200 5200 2200
+Wire Wire Line
+	5200 2200 5200 2300
+Wire Wire Line
+	4050 2300 3650 2300
+Wire Wire Line
+	3650 2300 3650 2250
+Wire Wire Line
+	3650 2250 3350 2250
+Wire Wire Line
+	4050 2400 3650 2400
+Wire Wire Line
+	3650 2400 3650 2550
+Wire Wire Line
+	3650 2550 3350 2550
+Wire Wire Line
+	4050 2600 4050 3050
+Wire Wire Line
+	4050 3050 3350 3050
+Wire Wire Line
+	3350 3050 3350 3000
+Wire Wire Line
+	4050 2500 3750 2500
+Wire Wire Line
+	3750 2500 3750 2700
+Wire Wire Line
+	3750 2700 3350 2700
+Wire Wire Line
+	4050 1700 4050 2100
+Wire Wire Line
+	3150 1700 4050 1700
+Wire Wire Line
+	5000 3350 6100 3350
+Wire Wire Line
+	6100 3350 6100 3950
+Wire Wire Line
+	6100 3950 6450 3950
+Wire Wire Line
+	5000 3450 6300 3450
+Wire Wire Line
+	6300 3450 6300 3650
+Wire Wire Line
+	6300 3650 6450 3650
+Wire Wire Line
+	5050 3900 5600 3900
+Wire Wire Line
+	5600 3900 5600 3750
+Wire Wire Line
+	5600 3750 6450 3750
+Wire Wire Line
+	5050 4000 6250 4000
+Wire Wire Line
+	6250 4000 6250 3850
+Wire Wire Line
+	6250 3850 6450 3850
+Wire Wire Line
+	5450 2600 5450 2700
+Wire Wire Line
+	5200 2600 5200 2700
+Wire Wire Line
+	6200 3150 6450 3150
+Wire Wire Line
+	6450 3150 6450 3350
+Wire Wire Line
+	3150 2000 3150 2100
+Wire Bus Line
+	3400 3300 3400 4250
+Wire Bus Line
+	3100 3500 3400 3500
+Wire Wire Line
+	4100 3350 3400 3350
+Wire Wire Line
+	4100 3450 3400 3450
+Wire Wire Line
+	4050 3900 3400 3900
+Wire Wire Line
+	4050 4050 3400 4050
+Text Label 3700 3350 2    60   ~ 0
+RS1
+Text Label 3700 3450 2    60   ~ 0
+RS2
+Text Label 3700 3900 2    60   ~ 0
+RS3
+Text Label 3700 4050 2    60   ~ 0
+RS4
+$Comp
+L +3.3V #PWR013
+U 1 1 5925D940
+P 3500 1550
+F 0 "#PWR013" H 3500 1400 50  0001 C CNN
+F 1 "+3.3V" H 3500 1690 50  0000 C CNN
+F 2 "" H 3500 1550 50  0000 C CNN
+F 3 "" H 3500 1550 50  0000 C CNN
+	1    3500 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 1550 3500 1700
+Connection ~ 3500 1700
+$Comp
+L GND #PWR014
+U 1 1 5925DAFE
+P 3900 2200
+F 0 "#PWR014" H 3900 1950 50  0001 C CNN
+F 1 "GND" H 3900 2050 50  0000 C CNN
+F 2 "" H 3900 2200 50  0000 C CNN
+F 3 "" H 3900 2200 50  0000 C CNN
+	1    3900 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 2200 3900 2200
+$EndSCHEMATC
