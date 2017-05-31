@@ -1,0 +1,35 @@
+Source:,/Users/franklinangulo/Documents/1_GITangulofranklin/Ejercicio2Kicad/Ejercicio2.sch
+Date:,"Tuesday, 30 '30e' May '30e' 2017, 07:13:17 PM"
+Tool:,Eeschema 4.0.4-stable
+Generator:,/Users/franklinangulo/Documents/1_GITangulofranklin/Ejercicio2Kicad/tools/bom_csv_grouped_by_value.py
+Component Count:,13
+
+Individual Components:
+
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Desc:,Digikey#:,Manf#:,Manf:
+,,C1,100nF,device:C,ej2:C_0603_HandSoldering,http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf,CAP CER 0.1UF 50V X7R 1206,311-1179-1-ND,CC1206KRX7R9BB104,Yageo
+,,C2,100nF,device:C,ej2:C_0603_HandSoldering,http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf,CAP CER 0.1UF 50V X7R 1206,311-1179-1-ND,CC1206KRX7R9BB104,Yageo
+,,C3,100nF,device:C,ej2:C_0603_HandSoldering,http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf,CAP CER 0.1UF 50V X7R 1206,311-1179-1-ND,CC1206KRX7R9BB104,Yageo
+,,C4,100nF,device:C,ej2:C_0603_HandSoldering,http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf,CAP CER 0.1UF 50V X7R 1206,311-1179-1-ND,CC1206KRX7R9BB104,Yageo
+,,C5,100nF,device:C,ej2:C_0603_HandSoldering,http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf,CAP CER 0.1UF 50V X7R 1206,311-1179-1-ND,CC1206KRX7R9BB104,Yageo
+,,C6,100nF,device:C,ej2:C_0603_HandSoldering,http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf,CAP CER 0.1UF 50V X7R 1206 Expanded Description,311-1179-1-ND,CC1206KRX7R9BB104,Yageo
+,,J1,DB9,conn:DB9,ej2:DB9_F_TH,"http://www.sullinscorp.com/drawings/345_11773,_SDS107-PR___-_____-SN___-___.pdf",CONN D-SUB RCPT 9POS R/A SOLDER,S9554-ND,SDS107-PRP1-F09-SN63-11,Sullins Connector Solutions
+,,JP1,CAN,ej2cese:CONN_3,ej2:CON_PALETA_3,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English,CONN HEADER VERT 3POS .100 TIN,A19470-ND,640456-3,TE Connectivity AMP Connectors
+,,R1,60,device:R,ej2:R_1206_HandSoldering,https://www.digikey.com/products/en?WT.z_se_ps=1&keywords=Y149660R0000A0R-ND,RES SMD 60 OHM 0.05% 0.15W 1206,Y149660R0000A0R-ND,Y149660R0000A0R,Vishay Foil Resistors (Division of Vishay Precision Group)
+,,R2,60,device:R,ej2:R_1206_HandSoldering,https://www.digikey.com/products/en?WT.z_se_ps=1&keywords=Y149660R0000A0R-ND,RES SMD 60 OHM 0.05% 0.15W 1206,Y149660R0000A0R-ND,Y149660R0000A0R,Vishay Foil Resistors (Division of Vishay Precision Group)
+,,U1,AMIS42665TJAA1RG,ej2cese:AMIS42665TJAA1RG,ej2:SOIC-8,http://www.onsemi.com/pub/Collateral/AMIS-42665-D.PDF,IC TXRX CAN HALF DUP 8SOIC,766-1006-1-ND,AMIS42665TJAA1RG,ON Semiconductor
+,,U2,RS232CESE,rs232cese:RS232CESE,ej2:SP3232ECN-SOIC16N,,,,,
+,,XA1,Conn_Poncho2P_2x_20x2,ej2cese:Conn_Poncho2P_2x_20x2,ej2:Conn_Poncho_Derecha,https://cdn.harwin.com/pdfs/M50-350.pdf,CONN HDR 1.27MM VERT AU 40POS,952-1387-ND,M50-3502042,Harwin Inc.
+
+
+
+Collated Components:
+
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Desc:,Digikey#:,Manf#:,Manf:
+1,6,"C1, C2, C3, C4, C5, C6",100nF,device:C,ej2:C_0603_HandSoldering,http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf,CAP CER 0.1UF 50V X7R 1206,311-1179-1-ND,CC1206KRX7R9BB104,Yageo
+2,1,J1,DB9,conn:DB9,ej2:DB9_F_TH,"http://www.sullinscorp.com/drawings/345_11773,_SDS107-PR___-_____-SN___-___.pdf",CONN D-SUB RCPT 9POS R/A SOLDER,S9554-ND,SDS107-PRP1-F09-SN63-11,Sullins Connector Solutions
+3,1,JP1,CAN,ej2cese:CONN_3,ej2:CON_PALETA_3,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English,CONN HEADER VERT 3POS .100 TIN,A19470-ND,640456-3,TE Connectivity AMP Connectors
+4,2,"R1, R2",60,device:R,ej2:R_1206_HandSoldering,https://www.digikey.com/products/en?WT.z_se_ps=1&keywords=Y149660R0000A0R-ND,RES SMD 60 OHM 0.05% 0.15W 1206,Y149660R0000A0R-ND,Y149660R0000A0R,Vishay Foil Resistors (Division of Vishay Precision Group)
+5,1,U1,AMIS42665TJAA1RG,ej2cese:AMIS42665TJAA1RG,ej2:SOIC-8,http://www.onsemi.com/pub/Collateral/AMIS-42665-D.PDF,IC TXRX CAN HALF DUP 8SOIC,766-1006-1-ND,AMIS42665TJAA1RG,ON Semiconductor
+6,1,U2,RS232CESE,rs232cese:RS232CESE,ej2:SP3232ECN-SOIC16N,,,,,
+7,1,XA1,Conn_Poncho2P_2x_20x2,ej2cese:Conn_Poncho2P_2x_20x2,ej2:Conn_Poncho_Derecha,https://cdn.harwin.com/pdfs/M50-350.pdf,CONN HDR 1.27MM VERT AU 40POS,952-1387-ND,M50-3502042,Harwin Inc.
